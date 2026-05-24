@@ -22,6 +22,10 @@ same UX as the native brokerage view.
 4. Open https://app.traderepublic.com/. A "Brokerage / PEA" pill appears
    top-right. Click PEA to browse the PEA account everywhere.
 
+## Small side-fix
+
+Also fixed the graph wandering free on the page on 1d timescale ( .chart > svg { overflow: hidden !important; } )
+
 ## Why declarativeNetRequest (instead of patching fetch)?
 
 The earlier 0.2.0 / 0.3.0 versions tried two approaches that don't work
